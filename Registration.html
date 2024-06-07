@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="Registrationstyle.css">
+    </link>
+  </head>
+  <body>
+    <div class="main-class">
+
+        <div class="container">
+        </div>
+        <form>
+          <h2>Register Form</h2>
+  
+      <div class="main-registration-form">
+        <div class="name form-group">
+
+        <label class="">Full Name<span>*</span>
+        </label>
+
+        <input type="text" id="fullName" placeholder="Enter Full Name" class="box-reg form-control" required="required">
+      </div>
+      <div class="username form-group">
+        <label class="">Username</label>
+
+        <span>*</span>
+        <input type="text" id="Username" placeholder="Enter Username" class="box-reg form-control" required="required">
+      </div>
+
+      <div class="password form-group">
+        <label id="passwd" class="passwd">Password</label>
+            <span>*</span>
+            <input type="password" placeholder="Enter Password" class="box-reg form-control" required="required">
+          </div>
+
+      <div class="confirm-password form-group">
+        <label class="">Confirm Password</label>
+        <span>*</span>
+        <input type="password" placeholder="Enter Confirm Password" class="box-reg form-control" required="required">
+      </div>
+
+      <div class="email-address form-group">
+        <label class="">Email Address</label>
+        <span>*</span>
+        <input type="email" placeholder="Enter Email Address" class="box-reg form-control" required="required">
+      </div>
+
+          <div class="phone-number form-group">
+        <label class="">Phone Number</label>
+        <span>*</span>
+        <input type="tel" placeholder="Enter Phone Number" class="box-reg form-control" required="required">
+      </div>
+
+      <div class="form-group">
+        <label class="">Date of Birth</label>
+        <span>*</span>
+        <input type="date" placeholder="Date of Birth" class="box-reg form-control">
+      </div>
+
+        <div class="gender form-group">
+          <p class="">Gender</p>
+          <input type="radio" name="female" />
+          <label>Female</label>
+          <input type="radio" name="male" />
+          <label>Male</label>
+          <input type="radio" name="male" />
+          <label>Other</label>
+          
+        </div>
+
+        <div class="hobbies form-group">
+            <p class="">Hobbies</p>
+            <input type="checkbox" />
+        <label>Cooking</label>
+        <input type="checkbox" />
+        <label>Traveling</label>
+        <input type="checkbox">
+        <label>Other</label>
+        
+      </div>
+      <div class="form-group">
+        
+            <label class="">Profile Picture</label>
+            <input type="file" />
+          </div>
+
+    <div>
+      <div class="ccountry form-group">
+        <label class="">Select Country</label>
+        <select name="Country" class="form-control">
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+            <option value="Asia">Asia</option>
+        </select>
+         </div>
+
+  <div class="bio  form-group">
+    <label>Bio</label>
+    <textarea placeholder="Enter Bio"></textarea>
+  </div>
+</div>
+
+<div class="term-cond form-group" checked>
+  <input type="checkbox" />
+  <label>Agree to Terms and Conditions</label>
+</div>
+
+<div class="button-form">
+      <button class="" type="reset">Reset</button>
+      <button class="" type="submit">Submit</button>
+      
+    </div>
+  </div>
+</form>
+</div>
+</body>
+</html>
